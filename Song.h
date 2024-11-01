@@ -21,5 +21,9 @@ public:
 
 	bool hasTheSameTime(Song s);
 
+	friend bool operator==(const Song& c1, const Song& c2);
+	friend bool operator<(const Song& c1, const Song& c2);
+
+	void print();
 };
 

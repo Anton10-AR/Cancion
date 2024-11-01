@@ -25,5 +25,7 @@ public:
 	void printHistoricalWithRate(int rate);
 
 	void printBarPercent();
-};
 
+	// sobreescribir el operador de comparacion "<", considerando que se quieren comparar Trackers
+	// considera que un tracker es menor que otro cuando tiene menor cantidad de historias
+};
